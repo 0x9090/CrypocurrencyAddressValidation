@@ -16,7 +16,7 @@ This library performs Levels 1 through 4 for all supported coins and address for
 * **XMR:** Standard Address, Subaddress, Integrated Address
 
 ### Structure
-This library has two dependencies: pysha3 and base58. You use this library by importing and calling static methods in the top-level Validation class. Ticker symbols are case-insensitive, and all functions return a boolean True/False answer.
+This library has two dependencies: pysha3 and base58. You use this library by importing and calling static methods in the top-level Validation class. Coin tickers, chains, and names are case-insensitive. All functions return a boolean True/False answer.
 
 ```Python
 class Validation:
@@ -57,7 +57,10 @@ if Validation.is_btc_chain("testnet"):
     
 if Validation.is_xmr_chain("stagenet"):
     print("Valid")
-    
+
+if Validation.is_coin_name("litecoin"):
+    print("valid")
+   
 if Validation.is_address("BTC", "3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa"):
     print("Valid")
     
