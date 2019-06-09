@@ -1,7 +1,7 @@
 # Cryptocurrency Address Validation
 ## BTC, LTC, XMR
 
-This is a pure Python class which performs strong validation of different cryptocurrency addresses, chains, and ticker symbols. It will ensure that the data provided calculates to a correct value. Segwit compatible
+This is a Python class which performs strong validation of different cryptocurrency addresses, chains, and ticker symbols. It will ensure that the data provided calculates to a correct value. Segwit compatible
 
 ## Validation Levels
 1. **Length** - Ensure the given address is the expected length
