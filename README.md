@@ -59,7 +59,7 @@ if Validation.is_xmr_chain("stagenet"):
     print("Valid")
 
 if Validation.is_coin_name("litecoin"):
-    print("valid")
+    print("Valid")
    
 if Validation.is_address("BTC", "3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa"):
     print("Valid")
