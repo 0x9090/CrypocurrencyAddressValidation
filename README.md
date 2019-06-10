@@ -82,7 +82,7 @@ I borrowed / modified code from these projects:
 * Bech32 Validation: http://bit.ly/2Eaw40N
 * XMR Validation: https://github.com/monero-project
 
-Please test throughly before using this in a production environment. There are no warrantees, guarentees, or strings attached when using this software
+Please test throughly before using this in a production environment. There are no warranties, guarantees, or strings attached when using this software
 
 ### Future Work
 * Integrate the base58 module code into the library itself
