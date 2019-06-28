@@ -7,7 +7,7 @@ This is a Python class which performs strong validation of different cryptocurre
 1. **Length** - Ensure the given address is the expected length
 2. **Character Set** - Ensure that only the expected characters are used in the address
 3. **Character Position** - Ensure that certain key characters are in their expected positions in the address
-4. **Cryptographic** - Deconstruct the address into it's logical components, and validate that it parsed, and any checksums or signatures are correct
+4. **Cryptographic** - Deconstruct the address into its logical components, and validate that it parsed, and any checksums or signatures are correct
 
 This library performs Levels 1 through 4 for all supported coins and address formats
 
