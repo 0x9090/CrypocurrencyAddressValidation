@@ -88,3 +88,4 @@ Please test throughly before using this in a production environment. There are n
 * Integrate the base58 module code into the library itself
 * Namespace the XMR, LTC, and BTC functions & classes
 * Consolidate XMR and BTC base58 functions
+* Make this into a "real" Python module and publish to PyPI
